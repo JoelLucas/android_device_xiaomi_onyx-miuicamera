@@ -1,4 +1,4 @@
-From 8b778186a9492d617e403738ecdce42e2977dbc5 Mon Sep 17 00:00:00 2001
+From 2a1f99467c34b075cc6edcacda22ee531498efe4 Mon Sep 17 00:00:00 2001
 From: AdarshGrewal <adarshgrewal@gmail.com>
 Date: Sun, 7 Jun 2026 15:59:45 +0530
 Subject: [PATCH 4/7] Stub out call to jcodec MP4 post-processing
@@ -9,7 +9,7 @@ Subject: [PATCH 4/7] Stub out call to jcodec MP4 post-processing
  1 file changed, 1 insertion(+), 269 deletions(-)
 
 diff --git a/smali_classes6/Fj/e.smali b/smali_classes6/Fj/e.smali
-index 068d694a..922aa20b 100644
+index 29f357e2f..922aa20b2 100644
 --- a/smali_classes6/Fj/e.smali
 +++ b/smali_classes6/Fj/e.smali
 @@ -5,275 +5,7 @@
@@ -191,7 +191,7 @@ index 068d694a..922aa20b 100644
 -
 -    check-cast v2, Lorg/jcodec/containers/mp4/boxes/MovieBox;
 -
--    invoke-interface {p1, v2}, LFj/b;->b(Lorg/jcodec/containers/mp4/boxes/MovieBox;)V
+-    invoke-interface {p1, v2}, LFj/b;->i(Lorg/jcodec/containers/mp4/boxes/MovieBox;)V
 -
 -    iget-wide v3, v4, Lorg/jcodec/containers/mp4/boxes/b;->b:J
 -    :try_end_5
@@ -290,5 +290,5 @@ index 068d694a..922aa20b 100644
 -    throw p0
  .end method
 -- 
-2.54.0
+2.43.0
 

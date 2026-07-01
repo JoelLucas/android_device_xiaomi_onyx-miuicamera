@@ -1,4 +1,4 @@
-From 550d08d4c286ce629fea4a96603c7a08bc5115d9 Mon Sep 17 00:00:00 2001
+From cca37feb71d7dc36e72ab0fdbe18028b55996355 Mon Sep 17 00:00:00 2001
 From: AdarshGrewal <adarshgrewal@gmail.com>
 Date: Wed, 3 Jun 2026 16:42:54 +0530
 Subject: [PATCH 3/7] Load obfuscated resources sanely
@@ -8,7 +8,7 @@ Subject: [PATCH 3/7] Load obfuscated resources sanely
  1 file changed, 17 insertions(+), 1 deletion(-)
 
 diff --git a/smali_classes4/F8/a.smali b/smali_classes4/F8/a.smali
-index 47d0fcf5..c3ae57c0 100644
+index 0957b87e2..e86684b85 100644
 --- a/smali_classes4/F8/a.smali
 +++ b/smali_classes4/F8/a.smali
 @@ -166,7 +166,7 @@
@@ -61,5 +61,5 @@ index 47d0fcf5..c3ae57c0 100644
      :try_start_3
      throw p0
 -- 
-2.54.0
+2.43.0
 
